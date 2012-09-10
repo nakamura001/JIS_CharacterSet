@@ -12,7 +12,7 @@
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_bom_utf8.txt
 *BOM有りUTF-8
-* ~ (チルダ)に対応するUnicodeが ?(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_utf8.txt
 *BOM無しUTF-8
@@ -20,7 +20,7 @@
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_win_bom_utf8.txt
 *BOM有りUTF-8
-* ~ (チルダ)に対応するUnicodeが ?(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 * ['DOUBLE VERTICAL LINE' (U+2016) ](http://www.fileformat.info/info/unicode/char/2016/index.htm)を ['PARALLEL TO' (U+2225) ](http://www.fileformat.info/info/unicode/char/2225/index.htm)に置き換え。
 
 
