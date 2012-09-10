@@ -16,7 +16,7 @@
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_utf8.txt
 *BOM無しUTF-8
-* ~ (チルダ)に対応するUnicodeが ?(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_win_bom_utf8.txt
 *BOM有りUTF-8
