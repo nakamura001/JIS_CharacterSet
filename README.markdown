@@ -11,16 +11,16 @@
  Shift-JIS の文字を Unicode に変換するテーブルファイルの情報を元に Shift-JIS の文字一覧を取得。
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_bom_utf8.txt
-*BOM有りUTF-8
-* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* BOM有りUTF-8
+* ~ (チルダ)に対応するUnicodeが &#x203e;(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_utf8.txt
 *BOM無しUTF-8
-* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* ~ (チルダ)に対応するUnicodeが &#x203e;(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 
 ##SHIFTJIS_custom/SHIFTJIS_custom_win_bom_utf8.txt
-*BOM有りUTF-8
-* ~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
+* BOM有りUTF-8
+* ~ (チルダ)に対応するUnicodeが &#x203e;(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。
 * ['DOUBLE VERTICAL LINE' (U+2016) ](http://www.fileformat.info/info/unicode/char/2016/index.htm)を ['PARALLEL TO' (U+2225) ](http://www.fileformat.info/info/unicode/char/2225/index.htm)に置き換え。
 
 
