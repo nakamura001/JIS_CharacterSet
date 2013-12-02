@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>JISコード関連の情報 by nakamura001</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/nakamura001/JIS_CharacterSet">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>JISコード関連の情報</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/nakamura001/JIS_CharacterSet/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/nakamura001/JIS_CharacterSet/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h2>
+<a name="jis_x_0201py" class="anchor" href="#jis_x_0201py"><span class="octicon octicon-link"></span></a>JIS_X_0201.py</h2>
+
+<p>JIS X 0201 の文字を Unicode に変換するテーブルファイルの情報を元に JIS X 0201 の文字一覧を取得。</p>
+
+<h2>
+<a name="jis_x_0208py" class="anchor" href="#jis_x_0208py"><span class="octicon octicon-link"></span></a>JIS_X_0208.py</h2>
+
+<p>JIS X 0208 の文字を Unicode に変換するテーブルファイルの情報を元に JIS X 0208 の文字一覧を取得。</p>
+
+<h2>
+<a name="jis_x_0212py" class="anchor" href="#jis_x_0212py"><span class="octicon octicon-link"></span></a>JIS_X_0212.py</h2>
+
+<p>JIS X 0212 の文字を Unicode に変換するテーブルファイルの情報を元に JIS X 0212 の文字一覧を取得。</p>
+
+<h2>
+<a name="shiftjispy" class="anchor" href="#shiftjispy"><span class="octicon octicon-link"></span></a>SHIFTJIS.py</h2>
+
+<p>Shift-JIS の文字を Unicode に変換するテーブルファイルの情報を元に Shift-JIS の文字一覧を取得。</p>
+
+<h2>
+<a name="shiftjis_customshiftjis_custom_bom_utf8txt" class="anchor" href="#shiftjis_customshiftjis_custom_bom_utf8txt"><span class="octicon octicon-link"></span></a>SHIFTJIS_custom/SHIFTJIS_custom_bom_utf8.txt</h2>
+
+<ul>
+<li>BOM有りUTF-8</li>
+<li>~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。</li>
+</ul><h2>
+<a name="shiftjis_customshiftjis_custom_utf8txt" class="anchor" href="#shiftjis_customshiftjis_custom_utf8txt"><span class="octicon octicon-link"></span></a>SHIFTJIS_custom/SHIFTJIS_custom_utf8.txt</h2>
+
+<p>*BOM無しUTF-8</p>
+
+<ul>
+<li>~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。</li>
+</ul><h2>
+<a name="shiftjis_customshiftjis_custom_win_bom_utf8txt" class="anchor" href="#shiftjis_customshiftjis_custom_win_bom_utf8txt"><span class="octicon octicon-link"></span></a>SHIFTJIS_custom/SHIFTJIS_custom_win_bom_utf8.txt</h2>
+
+<ul>
+<li>BOM有りUTF-8</li>
+<li>~ (チルダ)に対応するUnicodeが ‾(OVERLINE) となっている為、 TILDE(U+007E) に置き換え。</li>
+<li>
+<a href="http://www.fileformat.info/info/unicode/char/2016/index.htm">'DOUBLE VERTICAL LINE' (U+2016) </a>を <a href="http://www.fileformat.info/info/unicode/char/2225/index.htm">'PARALLEL TO' (U+2225) </a>に置き換え。</li>
+</ul><h2>
+<a name="%E5%8F%82%E8%80%83" class="anchor" href="#%E5%8F%82%E8%80%83"><span class="octicon octicon-link"></span></a>参考</h2>
+
+<p>JIS0201.TXTの配布場所：<a href="http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0201.TXT">http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0201.TXT</a></p>
+
+<p>JIS0208.TXTの配布場所：<a href="http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT">http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT</a></p>
+
+<p>JIS0212.TXTの配布場所：<a href="http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0212.TXT">http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0212.TXT</a></p>
+
+<p>SHIFTJIS.TXTの配布場所：<a href="http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/SHIFTJIS.TXT">http://unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/SHIFTJIS.TXT</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/nakamura001">nakamura001</a> can be found on <a href="https://github.com/nakamura001/JIS_CharacterSet">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
